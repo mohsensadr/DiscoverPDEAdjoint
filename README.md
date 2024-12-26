@@ -1,3 +1,5 @@
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+
 # Discover PDEs using Adjoint Method
 
 This is a Jupyter notebook that includes a Python implementation of the adjoint method for discovering PDEs given data. The arxiv version of the manuscript can be found here:
