@@ -1,3 +1,4 @@
+[![DOI](https://zenodo.org/badge/DOI/10.48550/arXiv.2401.17177.svg)](https://doi.org/10.48550/arXiv.2401.17177)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 # Discover PDEs using the Adjoint Method
