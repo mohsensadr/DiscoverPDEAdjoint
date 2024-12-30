@@ -18,7 +18,7 @@ sys.path.append(src_path)
 from adjoint import *
 ```
 
-Given that the solution of PDE ```f``` discretized on a temporal ```t``` and spatial grid ```x```, is stored in a NumPy array with dimensions 
+Given that the solution of PDE ```f``` discretized on a temporal ```t``` and spatial grid ```x```, is stored in a NumPy array with dimension
 
 ```(num of PDEs, Number of time steps, number of grid points in x1, number of grid points in x2, ...)```
 
