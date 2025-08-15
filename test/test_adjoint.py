@@ -29,8 +29,9 @@ def test_forward_m_zero_params_constant_solution():
     params = np.zeros((numPDE, len(ds), len(ps)))
 
     f = forward_m(params, ps, ds, f0, dx, dt, Nt)
-    # With zero parameters, solution should remain constant
-    np.testing.assert_allclose(f, f0[:, None, :], atol=1e-12)
+    # Repeat f0 along time axis to match f
+    expected = np.repeat(f0[:, None, :], Nt, axis=1)
+    np.testing.assert_allclose(f, expected, atol=1e-12)
 
 def test_forward_m_small_dt_changes_little():
     numPDE = 1
