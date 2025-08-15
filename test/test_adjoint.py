@@ -104,7 +104,7 @@ def test_adjoint_eq_nonzero_params_runs():
 def test_AdjointFindPDE_basic_run():
     numPDE = 1
     Nx = 4
-    Nt_fine = 3
+    Nt_fine = 2
     dx = [1.0]
     fs = np.random.rand(numPDE, Nt_fine, Nx)
     x = [np.linspace(0,1,Nx)]
