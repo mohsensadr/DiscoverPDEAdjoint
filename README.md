@@ -3,8 +3,13 @@
 
 # Discover PDEs using the Adjoint Method
 
-This git repository contains a Python implementation of the adjoint method for discovering PDEs given data. The arxiv version of the corresponding manuscript can be found here:
-https://doi.org/10.48550/arXiv.2401.17177
+This git repository contains a Python implementation of the adjoint method for discovering PDEs given data. The manuscript can be found on openreview:
+
+https://openreview.net/forum?id=Az3mJ4d1eT
+
+You can also watch a short video about the paper here: 
+
+[![](https://img.youtube.com/vi/D0Uwb70C_q4/0.jpg)](https://youtu.be/D0Uwb70C_q4)
 
 
 # Usage
